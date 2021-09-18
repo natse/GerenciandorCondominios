@@ -164,6 +164,16 @@
               "target": "Package",
               "version": "[3.1.17, )",
               "generatePathProperty": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.19, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.19, )",
+              "generatePathProperty": true
             }
           },
           "imports": [

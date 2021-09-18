@@ -10,4 +10,8 @@
     <Folder Include="Repositorios\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciandorCondominiosBLL\GerenciandorCondominiosBLL.csproj" />
+  </ItemGroup>
+
 </Project>

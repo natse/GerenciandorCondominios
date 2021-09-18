@@ -16,6 +16,9 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\natse\.nuget\packages\newtonsoft.json\10.0.1</PkgNewtonsoft_Json>
+    <PkgMicrosoft_EntityFrameworkCore Condition=" '$(PkgMicrosoft_EntityFrameworkCore)' == '' ">C:\Users\natse\.nuget\packages\microsoft.entityframeworkcore\3.1.19</PkgMicrosoft_EntityFrameworkCore>
+    <PkgMicrosoft_EntityFrameworkCore_SqlServer Condition=" '$(PkgMicrosoft_EntityFrameworkCore_SqlServer)' == '' ">C:\Users\natse\.nuget\packages\microsoft.entityframeworkcore.sqlserver\3.1.19</PkgMicrosoft_EntityFrameworkCore_SqlServer>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\natse\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.3</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation Condition=" '$(PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation)' == '' ">C:\Users\natse\.nuget\packages\microsoft.aspnetcore.mvc.razor.runtimecompilation\3.1.17</PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation>
     <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\natse\.nuget\packages\fsharp.core\5.0.0</PkgFSharp_Core>

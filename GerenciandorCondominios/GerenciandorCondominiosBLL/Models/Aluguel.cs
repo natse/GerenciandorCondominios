@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Text;
+
+namespace GerenciandorCondominiosBLL.Models
+{
+   public class Aluguel
+    {
+        public int AluguelId { get; set; }
+
+        [Required(ErrorMessage ="O campi{0} é obrigatorio")]
+        [Range(0,int.MaxValue, ErrorMessage ="Valor inválido")]
+        public decimal Valor { get; set; }
+        [Display(Name ="Mês")]
+        public int MesId { get; set; }
+        public Mes mes { get; set; }
+
+        [Required(ErrorMessage = "O campi{0} é obrigatorio")]
+        [Range(2020,2030, ErrorMessage = "Valor inválido")]
+        public int Ano { get; set; }
+        public virtual ICollection<Pagamento>Pagamentos { get; set; }
+    }
+}

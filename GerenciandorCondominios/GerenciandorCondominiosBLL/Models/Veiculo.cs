@@ -20,7 +20,7 @@ namespace GerenciandorCondominiosBLL.Models
         [Required(ErrorMessage = "O campo {0} é obrigario")]
         public string Placa { get; set; }
         public string UsuarioId { get; set; }                                                                                   
-        public Usuario usuario { get; set; }
+        public Usuario Usuario { get; set; }
 
 
     }

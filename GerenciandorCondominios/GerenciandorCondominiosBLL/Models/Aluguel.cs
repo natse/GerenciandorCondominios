@@ -14,7 +14,7 @@ namespace GerenciandorCondominiosBLL.Models
         public decimal Valor { get; set; }
         [Display(Name ="Mês")]
         public int MesId { get; set; }
-        public Mes mes { get; set; }
+        public Mes Mes { get; set; }
 
         [Required(ErrorMessage = "O campi{0} é obrigatorio")]
         [Range(2020,2030, ErrorMessage = "Valor inválido")]

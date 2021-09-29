@@ -6,11 +6,12 @@
 
   <ItemGroup>
     <Folder Include="Interfaces\" />
-    <Folder Include="Mapeamentos\" />
     <Folder Include="Repositorios\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.19" />
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="3.1.19" />
   </ItemGroup>
 

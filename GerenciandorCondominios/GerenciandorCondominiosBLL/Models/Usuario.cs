@@ -11,8 +11,8 @@ namespace GerenciandorCondominiosBLL.Models
         public string Foto { get; set; }
         public bool PrimeiroAcesso { get; set; }
         public StatusConta Status { get; set; }
-        public virtual IConllection <Apartamento> MoradoresApartamentos { get; set; }
-        public virtual IConllection<Apartamento> ProprietariosApartamentos { get; set; }
+        public virtual ICollection <Apartamento> MoradoresApartamentos { get; set; }
+        public virtual ICollection<Apartamento> ProprietariosApartamentos { get; set; }
         public virtual ICollection<Veiculo> Veiculos { get; set; }
         public virtual ICollection<Evento> Eventos { get; set; }
         public virtual ICollection<Servico> Servicos { get; set; }

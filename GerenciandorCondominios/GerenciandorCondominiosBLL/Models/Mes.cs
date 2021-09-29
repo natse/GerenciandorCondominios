@@ -9,7 +9,7 @@ namespace GerenciandorCondominiosBLL.Models
         public int MesId { get; set; }
         public string Nome { get; set; }
         public virtual ICollection<Aluguel>Alugueis { get; set; }
-        public virtual ICollection<HistoriaRecurso>HistoriaRecursos { get; set; }
+        public virtual ICollection<HistoricoRecursos>HistoricoRecursos { get; set; }
 
     }
 }

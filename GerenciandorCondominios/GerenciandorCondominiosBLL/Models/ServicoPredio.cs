@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GerenciandorCondominiosBLL.Models
 {
-    class ServicoPredio
+   public class ServicoPredio
     {
         public int ServicoPredioId { get; set; }
         public int ServicoId { get; set; }

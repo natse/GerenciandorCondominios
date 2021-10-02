@@ -16,7 +16,7 @@ namespace GerenciandorCondominiosDAL.Mapeamentos
             builder.Property(m => m.Nome).IsRequired().HasMaxLength(30);
             builder.HasIndex(m => m.Nome).IsUnique();
 
-            builder.HasMany(m => m.Alugueis).WithOne(m => m.mes);
+            builder.HasMany(m => m.Alugueis).WithOne(m => m.Mes);
             builder.HasMany(m => m.HistoricoRecursos).WithOne(m => m.Mes);
 
             builder.HasData(

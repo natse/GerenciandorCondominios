@@ -1,5 +1,0 @@
-D:\Falcudade\MVC\GerenciandorCondominios\GerenciandorCondominios\GerenciandorCondominios\obj\Debug\netcoreapp3.1\GerenciandorCondominios.fsproj.AssemblyReference.cache
-D:\Falcudade\MVC\GerenciandorCondominios\GerenciandorCondominios\GerenciandorCondominios\obj\Debug\netcoreapp3.1\GerenciandorCondominios.AssemblyInfoInputs.cache
-D:\Falcudade\MVC\GerenciandorCondominios\GerenciandorCondominios\GerenciandorCondominios\obj\Debug\netcoreapp3.1\GerenciandorCondominios.AssemblyInfo.fs
-D:\Falcudade\MVC\GerenciandorCondominios\GerenciandorCondominios\GerenciandorCondominios\obj\Debug\netcoreapp3.1\GerenciandorCondominios.MvcApplicationPartsAssemblyInfo.fs
-D:\Falcudade\MVC\GerenciandorCondominios\GerenciandorCondominios\GerenciandorCondominios\obj\Debug\netcoreapp3.1\GerenciandorCondominios.MvcApplicationPartsAssemblyInfo.cache

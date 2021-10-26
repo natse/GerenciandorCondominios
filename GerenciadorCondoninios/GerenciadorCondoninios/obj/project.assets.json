@@ -6353,6 +6353,7 @@
       "GerenciandorCondominiosDAL >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.17",
       "Microsoft.EntityFrameworkCore >= 3.1.20",
+      "Microsoft.EntityFrameworkCore.Relational >= 3.1.20",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.20",
       "Microsoft.Extensions.Identity.Stores >= 3.1.20"
     ]
@@ -6408,6 +6409,10 @@
             "version": "[3.1.17, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.20, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[3.1.20, )"
           },

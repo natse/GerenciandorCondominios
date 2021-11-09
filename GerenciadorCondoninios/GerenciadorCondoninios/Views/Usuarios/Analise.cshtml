@@ -1,6 +1,7 @@
-﻿
+﻿@Model string
 @{
     Layout = null;
+    ViewData["Title"] = "Conta em Aprovanção";
 }
 
 <!DOCTYPE html>
@@ -8,8 +9,26 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+
+    <environment include="Development">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+        <script src="~/js/IniciarMascaras.js"></script>
+    </environment>
+    <environment include="Development">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+        <script src="~/js/IniciarMascaras.js"></script>
+    </environment>
+
     <title>Analise</title>
 </head>
-<body>
+<body class="white-text blue darken-2 container" style="position:absolute;top40%;left:20%">
+    <div>
+        <h1>Conta em Aprovação</h1>
+        <h5>Olá, @model ! Sua Conta está sob análise. Em breve, você poderá acessar o sistema. </h5>
+    </div>
 </body>
 </html>
